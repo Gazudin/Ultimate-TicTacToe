@@ -150,7 +150,7 @@ io.sockets.on('connection', function(client){
     });
 
     //////////////////////////
-    //	     	Helpers	  		//
+    //	      Helpers 	    //
     //////////////////////////
 
     // Resetting the current game
