@@ -3,7 +3,7 @@ Ultimate-TicTacToe
 
 A more sophisticated version of a tic tac toe game.
 
- --- How It works ---
+ -------- How It works --------
 
 The general idea is, that instead of having just a 3x3 game, we have a game consisting of 3 seperate 3x3 games, making it a 9x9 game. Each of the 3x3 games functions as one cell of the 9x9 game. So to ultimately win the game, you have to start winning multiple 3x3 games.
 
@@ -14,7 +14,8 @@ If a player wins one 3x3 grid, they can still be sent their by the other player,
 
 
 
- --- Current state of the Game ---
+ ------- Current state of the Game -------
+ 
 Right now, ther is only one set instance of the game, as opposed to having a lobby system where people can open their own instances of the game via sessions. This is mostly due to the game still being in alpha and missing some key features to ensure full playablity. If the core game is ready, I will start scaling it towards
 
 
