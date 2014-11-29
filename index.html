@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Ultimate Tic-Tac-Toe</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script src="http://gazu.carina.uberspace.de:61027/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="../iio/iioEngine.min.js"></script>
+    <script type="text/javascript" src="./game.js"></script>
+  </head>
+  <body>
+    <h1 align="center">Ultimate TicTacToe (WIP alpha)</h1>
+    <div id="big_wrapper">
+
+      <canvas id="canvas" width="450px" height="450px"/>
+        Your Browser doesn't support canvas.
+      </canvas>
+
+      <div id="chat_wrapper">
+        <div id="enter_name">
+          <span>Enter Name </span>
+          <input id="namebox" name="name" type="text"/>
+          <input id="reset" value="Reset Game" type="button"/>
+        </div>
+        <textarea id="chatlog" disabled></textarea>
+        <textarea id="chatmessage"></textarea>
+        <input id="send" value="Send" type="button"/>
+
+      </div>
+    </div>
+    <script type="text/javascript">iio.start(tictactoe, 'canvas')</script>
+
+    <footer>
+    </footer>
+
+   </body>
+</html>
